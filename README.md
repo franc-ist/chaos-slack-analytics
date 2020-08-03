@@ -1,7 +1,7 @@
 # Chaos Slack Analytics Bot
 
 <br>
-  <img src="Pictures_for_README/ChaosWhitenobackwide" alt="Chaos Logo">
+  <img src="Pictures_for_README/ChaosWhitenobackwide.png" alt="Chaos Logo">
 </p>
 
 Through managing a Slack workspace for my university society, I have found some of the analytics provided by the workspace dashboard to be a bit lacklustre. This bot aims to fix that.
