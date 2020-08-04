@@ -2,7 +2,7 @@ service: slack-analytics
 
 provider:
   name: aws
-  runtime: python3.7
+  runtime: python3.6
   region: eu-west-2
 
 # you can define service wide environment variables here
