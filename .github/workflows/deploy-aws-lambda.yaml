@@ -11,6 +11,8 @@ jobs:
         node-version: [10.x]
     steps:
       - uses: actions/checkout@master
+      - name: Install setuptools
+        run: sudo apt-get install python3-setuptools
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
