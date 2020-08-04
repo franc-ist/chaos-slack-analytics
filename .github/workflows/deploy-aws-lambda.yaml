@@ -26,4 +26,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
       - name: Serverless Deploy
+        env:
+          SLACK_SIGNING_SECRET: ${{ secrets.SLACK_SIGNING_SECRET }}
+          SLACK_OAUTH_TOKEN: ${{ secrets.SLACK_OAUTH_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_TEAM_ID: ${{ secrets.SLACK_TEAM_ID }}
+          SLACK_VERIFICATION_TOKEN: ${{ secrets.SLACK_VERIFICATION_TOKEN }}
         run: npm run-script deploy
