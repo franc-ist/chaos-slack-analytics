@@ -220,6 +220,9 @@ modules.xml
 # Sonarlint plugin
 .idea/sonarlint
 
-# Serverless files
+
 # Serverless directories
 .serverless
+
+# Node modules
+node_modules
